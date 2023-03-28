@@ -39,10 +39,10 @@ namespace UnitTestMoqFinal.Controllers
             return productService.UpdateProduct(product);
         }
 
-        [HttpDelete("deleteproduct")]
-        public bool DeleteProduct(int Id)
-        {
-            return productService.DeleteProduct(Id);
-        }
+        //[HttpDelete("deleteproduct")]
+        //public bool DeleteProduct(int Id)
+        //{
+        //    return productService.DeleteProduct(Id);
+        //}
     }
 }
